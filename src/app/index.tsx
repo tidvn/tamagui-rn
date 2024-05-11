@@ -11,8 +11,8 @@ import {
   YStack
 } from "tamagui";
 
-import { MySafeAreaView } from "../components/MySafeAreaView";
-import { MyStack } from "../components/MyStack";
+import { MySafeAreaView } from "@/components/common/MySafeAreaView";
+import { MyStack } from "@/components/common/MyStack";
 
 export default function Home() {
   const router = useRouter();

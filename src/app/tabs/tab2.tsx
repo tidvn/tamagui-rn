@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { H5, Tabs, Text } from "tamagui";
 
-import { MyStack } from "../../components/MyStack";
+import { MyStack } from "@/components/common/MyStack";
 
 export default function Tab2() {
   return (

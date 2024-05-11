@@ -10,7 +10,7 @@ import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { TamaguiProvider, Text, Theme } from "tamagui";
 
-import config from "../../tamagui.config";
+import config from "@/tamagui.config";
 
 SplashScreen.preventAutoHideAsync();
 

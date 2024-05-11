@@ -3,11 +3,11 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Button, H6 } from "tamagui";
 
-import DialogDemo from "../../components/DialogDemo";
-import { MyStack } from "../../components/MyStack";
-import SelectDemo from "../../components/SelectDemo";
-import SpinnerDemo from "../../components/SpinnerDemo";
-import SwitchDemo from "../../components/SwitchDemo";
+import DialogDemo from "@/components/demo/DialogDemo";
+import { MyStack } from "@/components/common/MyStack";
+import SelectDemo from "@/components/demo/SelectDemo";
+import SpinnerDemo from "@/components/demo/SpinnerDemo";
+import SwitchDemo from "@/components/demo/SwitchDemo";
 
 export default function User() {
   const router = useRouter();
